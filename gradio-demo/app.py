@@ -52,4 +52,4 @@ with gr.Blocks(title="Gradio Demo App") as demo:
 
 if __name__ == "__main__":
     # For local development, run: python app.py
-    demo.launch()
+    demo.launch(share=True)
